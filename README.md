@@ -1,12 +1,12 @@
 # EDUNET FOUNDATION MODEL 
-                                                       > python -u "c:\Users\ABHAY TRIPATHI\OneDrive\Desktop\ibm project\ibmcloudmyapproach.py"
- Predictive Maintenance ML Model Comparison
+                                                     
+# Predictive Maintenance ML Model Comparison
 This repository contains Python code for analyzing a predictive maintenance dataset, training various machine learning models to predict equipment failures, and comparing their accuracy.
 
-📊 Project Overview
+# 📊 Project Overview
 The goal of this project is to build and evaluate machine learning models that can predict different types of equipment failures based on sensor readings and operational parameters. By accurately predicting failures, maintenance can be scheduled proactively, reducing downtime and operational costs.
 
-📁 Dataset
+ #📁 Dataset
 The analysis uses the predictive_maintenance.csv dataset. This dataset typically includes:
 
 UDI: Unique identifier for the data point.
@@ -29,12 +29,12 @@ Target: Binary indicator of whether a failure occurred (0 or 1).
 
 Failure Type: Categorical type of failure (e.g., 'No Failure', 'Power Failure', 'Tool Wear Failure', etc.).
 
-🛠️ Methodology
+# 🛠️ Methodology
 The ibmcloudmyapproach.py script performs the following steps:
 
 Data Loading: Loads the predictive_maintenance.csv dataset using Pandas.
 
-Preprocessing:
+ # Preprocessing:
 
 Drops irrelevant columns (UDI, Product ID, Target).
 
@@ -58,7 +58,7 @@ Model Evaluation: Calculates and prints the accuracy score for each model on the
 
 Visualization: Generates a bar chart using Altair to visually compare the accuracy of the models, saving it as model_accuracy_comparison.json.
 
-📈 Results
+# 📈 Results
 The script outputs the accuracy scores for each trained model. In a typical run, you might see results similar to:
 
 Accuracy Scores:
@@ -70,10 +70,9 @@ This indicates that both Random Forest and Gradient Boosting models achieved the
 
 A visualization of these accuracies is saved as model_accuracy_comparison.json (which can be viewed in a Vega-Lite compatible viewer).
 
-🚀 How to Run the Code
-To run this analysis on your local machine:
 
-Prerequisites
+
+# Prerequisites
 Python 3.x installed
 
 Pip (Python package installer)
@@ -83,7 +82,7 @@ Install the required Python libraries:
 
 pip install pandas scikit-learn altair
 
-Execution
+# Execution
 Place your predictive_maintenance.csv file in the same directory as the ibmcloudmyapproach.py script.
 
 Run the Python script from your terminal:
@@ -92,7 +91,7 @@ python ibmcloudmyapproach.py
 
 The script will print the accuracy scores to the console and generate a model_accuracy_comparison.json file in the same directory, which contains the data for the comparison chart.
 
-🤝 Contributing
+# 🤝 Contributing
 Feel free to fork this repository, open issues, or submit pull requests.
 
 
